@@ -8,17 +8,28 @@
  gtag('js', new Date());
   
  gtag('config', 'AW-613917720',{
-   'cookie_prefix':'cookie_1',
+   'cookie_prefix':'cookie_fashion',
    'cookie_domain':'ynagarotest.github.io'
  });
- //gtag('config', 'AW-613917721',{'cookie_prefix':'cookie_2'});
+  
+  gtag('config', 'AW-613917721',{
+  'cookie_prefix':'cookie_ichiba',
+  'cookie_domain':'ynagarotest.github.io'
+ });
 </script>
 
   
   <!-- Event snippet for 購入 conversion page -->
 <script>
   gtag('event', 'conversion', {
-      'send_to': 'AW-613917720/e-brCPHaxYsDEJjI3qQC',
+      'send_to': 'AW-613917720/fashion',
+      'transaction_id': ''
+  });
+</script>
+  
+ <script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-613917721/ichiba',
       'transaction_id': ''
   });
 </script>
